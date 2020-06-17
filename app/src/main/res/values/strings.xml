@@ -4,7 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="admob_app_id">ca-app-pub-5952964350395666~4834226766</string>
+    <string name="admob_app_id"></string>
 
     <string name="play_more_apps">https://play.google.com/store/apps/details?id=com.vpapps.cocomusics</string>
 
@@ -16,8 +16,8 @@
     <string name="tab_text_2">Playlists</string>
     <string name="tab_text_3">Artist</string>
     <string name="tab_text_4">Albums</string>
-    <string name="facebook_app_id">808253879610271</string>
-    <string name="fb_login_protocol_scheme">fb808253879610271</string>
+    <string name="facebook_app_id"></string>
+    <string name="fb_login_protocol_scheme"></string>
     <string name="title_activity_main">MainActivity</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_header_line">Play your favourite Songs</string>
