@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F15731</color>
+    <color name="colorPrimaryDark">#C44728</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg">#F6F7F8</color>
+
+    <color name="progress_drawable_bg">#20000000</color>
+    <color name="notification_title">#000000</color>
+    <color name="notification_sub_title">#000000</color>
+    <color name="notification">#ffffff</color>
+
+    <color name="text_title">#323232</color>
+    <color name="text_desc">#878787</color>
+    <color name="text_duration">#404040</color>
+    <color name="line">#d9dadb</color>
+    <color name="ripple">#d9dadb</color>
+
+    <color name="primary_progress">#2b1d58</color>
+    <color name="orange">#f99120</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black80">#80000000</color>
+    <color name="bg_bottom_bar">#ffffff</color>
+    <color name="green">#00ff00</color>
+    <color name="green_dark">#5dac08</color>
+    <color name="grey">#6F6F6F</color>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+    <color name="red">#ff0000</color>
+    <color name="black20">#20000000</color>
+    <color name="white80">#80ffffff</color>
+    <color name="black40">#40000000</color>
+    <color name="switch_thumb_disable">#ececec</color>
+    <color name="DFDEDE">#DFDEDE</color>
+    <color name="whiteAA">#aaffffff</color>
+    <color name="bg_pro_pic">#e2dcdc</color>
+
+</resources>

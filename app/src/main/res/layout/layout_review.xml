@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_corner_top_orange"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="@string/rating"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_rate_close"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:padding="6dp"
+            android:src="@mipmap/ic_close_dialog" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tv_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/rate_song2"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp" />
+
+        <RatingBar
+            android:id="@+id/rb_add"
+            style="@style/RatingBar_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:max="5"
+            android:numStars="5"
+            android:theme="@style/RatingBar_normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@color/black20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_submit_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:background="@drawable/bg_round_primary"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_later_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="@string/maybe_later"
+                android:textColor="@color/white"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                app:backgroundTint="@color/grey"
+                android:background="@drawable/bg_round_primary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

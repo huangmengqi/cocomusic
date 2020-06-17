@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:elevation="5dp">
+
+    <ImageView
+        android:id="@+id/iv_music_add2playlist"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/image_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_add_to_playlist" />
+
+    <View
+        android:id="@+id/view_music_playlist"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line_verticle_black" />
+
+    <ImageView
+        android:id="@+id/iv_music_share"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/image_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_share" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line_verticle_black" />
+
+    <ImageView
+        android:id="@+id/iv_music_download"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/image_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_download"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/view_music_download"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line_verticle_black"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_music_rate"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/image_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_rate" />
+
+    <View
+        android:id="@+id/view_music_rate"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/line_verticle_black" />
+
+    <ImageView
+        android:id="@+id/iv_music_volume"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:contentDescription="@string/image_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_volume" />
+
+</LinearLayout>

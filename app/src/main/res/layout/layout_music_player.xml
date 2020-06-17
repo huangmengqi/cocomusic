@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/include_sliding_panel_childtwo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_palyLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_small"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+
+            <LinearLayout
+                android:id="@+id/ll_adView"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <include
+                android:id="@+id/rl_min_header"
+                layout="@layout/layout_music_min_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                android:id="@+id/ll_max_header"
+                layout="@layout/layout_music_max_header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_music_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg" />
+
+            <ImageView
+                android:id="@+id/iv_music_white_blur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_gradient_white_music" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom_palyLayout"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewPager_song"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/bottom_palyLayout">
+
+                <ImageView
+                    android:id="@+id/ivLike"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/selector_favorite"
+                    android:visibility="invisible" />
+
+                <View
+                    android:id="@+id/vBgLike"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_heart_like"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/bottom_palyLayout"
+                layout="@layout/layout_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/bottom_palyLayout2"
+        layout="@layout/layout_music_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical" />
+
+</RelativeLayout>

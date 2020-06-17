@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_dash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow"
+        android:layout_marginBottom="65dp"/>
+
+    <com.irfaan008.irbottomnavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        app:centre_button_color="@color/colorPrimary"
+        app:centre_button_icon="@mipmap/ic_music_library"
+        app:active_centre_button_icon_color="@color/white"
+        app:inactive_centre_button_icon_color="@color/white"
+        app:active_item_color="@color/colorPrimary"
+        app:space_background_color="@color/bg_bottom_bar"/>
+
+</RelativeLayout>

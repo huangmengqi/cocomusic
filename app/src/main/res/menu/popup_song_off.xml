@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/popup_off_add_song"
+        android:title="@string/add_to_playlist"/>
+    <item
+        android:id="@+id/popup_off_add_queue"
+        android:title="@string/add_to_queue"/>
+    <item
+        android:id="@+id/popup_off_youtube"
+        android:title="@string/search_youtube"/>
+    <item
+        android:id="@+id/popup_off_setas"
+        android:title="@string/setas"/>
+    <item
+        android:id="@+id/popup_off_delete"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/popup_off_share"
+        android:title="@string/share"/>
+</menu>

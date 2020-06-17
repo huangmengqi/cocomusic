@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MySeekBarTheme" parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="RatingBar_black" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="RatingBar_normal" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/black</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="ThemeDialog" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_dialog</item>
+    </style>
+
+    <style name="Theme.MiniPlayer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#00f</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">#f00</item>
+    </style>
+
+    <style name="TextLabel" parent="AppTheme">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/white50</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="TextLabel_GREY" parent="AppTheme">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/black80</item>
+        <item name="colorAccent">@color/black80</item>
+    </style>
+
+    <color name="white50">#50ffffff</color>
+</resources>

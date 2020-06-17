@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/popup_add_song"
+        android:title="@string/add_to_playlist"/>
+    <item
+        android:id="@+id/popup_add_queue"
+        android:title="@string/add_to_queue"/>
+    <item
+        android:id="@+id/popup_download"
+        android:title="@string/download"/>
+    <item
+        android:id="@+id/popup_youtube"
+        android:title="@string/search_youtube"/>
+    <item
+        android:id="@+id/popup_share"
+        android:title="@string/share"/>
+</menu>

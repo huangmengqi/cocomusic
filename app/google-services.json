@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552602183311",
+    "firebase_url": "https://cocomusics-13fe2.firebaseio.com",
+    "project_id": "cocomusics-13fe2",
+    "storage_bucket": "cocomusics-13fe2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552602183311:android:28435ed769af2fbd6ab2fa",
+        "android_client_info": {
+          "package_name": "com.vpapps.cocomusics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552602183311-egnbqdjt9r33bsn80jo1t6ss8s530vsk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vpapps.cocomusics",
+            "certificate_hash": "39d4df9537a48291dca8e8a670f80b0474bfb0e4"
+          }
+        },
+        {
+          "client_id": "552602183311-m0g1t9vofccn3s2hd61b073n53g640f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl9rE7mXPeBxsQBHD9oBlm6FLgZ2Ilk2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552602183311-m0g1t9vofccn3s2hd61b073n53g640f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

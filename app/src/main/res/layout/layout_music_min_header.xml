@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_min_header"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:elevation="3dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/seekbar_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MySeekBarTheme"
+        android:clickable="true"
+        android:focusable="true"
+        android:thumb="@null"
+        android:minHeight="1dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="0dp"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/iv_min_previous"
+        android:layout_below="@+id/seekbar_min" >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/iv_min_song"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_song"
+            app:riv_corner_radius="100dp"
+            android:padding="7dp"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:id="@+id/tv_min_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit ="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+                android:freezesText="true"
+                android:textSize="14sp"
+                android:textColor="@color/text_title"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_min_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textColor="@color/text_duration"
+                android:textStyle="normal"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_min_previous"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/iv_min_play"
+        android:src="@mipmap/ic_previous_grey"
+        android:padding="5dp"/>
+
+    <ImageView
+        android:id="@+id/iv_min_play"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/iv_min_next"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_play_grey"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageView
+        android:id="@+id/iv_min_next"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_next_grey"
+        android:layout_marginEnd="15dp"/>
+
+</RelativeLayout>

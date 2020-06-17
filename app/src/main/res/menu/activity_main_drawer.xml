@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_artist"
+            android:icon="@mipmap/ic_artist"
+            android:title="@string/artist" />
+        <item
+            android:id="@+id/nav_albums"
+            android:icon="@mipmap/albums"
+            android:title="@string/albums" />
+        <item
+            android:id="@+id/nav_allsongs"
+            android:icon="@mipmap/ic_all_songs"
+            android:title="@string/all_songs" />
+        <item
+            android:id="@+id/nav_playlist"
+            android:icon="@mipmap/playlist"
+            android:title="@string/playlist" />
+        <item
+            android:id="@+id/nav_myplaylist"
+            android:icon="@mipmap/ic_myplay"
+            android:title="@string/myplaylist" />
+        <item
+            android:id="@+id/nav_music_library"
+            android:icon="@mipmap/ic_music_lib_grey"
+            android:title="@string/music_library"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_downloads"
+            android:icon="@mipmap/ic_download"
+            android:title="@string/downloads" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@mipmap/favourite"
+            android:title="@string/favourite" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@mipmap/profile"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/nav_suggest"
+        android:icon="@mipmap/suggest"
+        android:title="@string/suggest_song" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@mipmap/settings"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@mipmap/login"
+        android:title="@string/login" />
+</menu>
